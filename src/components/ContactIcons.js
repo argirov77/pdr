@@ -2,7 +2,7 @@ import { FaWhatsapp, FaTelegram, FaViber, FaPhoneAlt, FaInstagram } from 'react-
 
 export default function ContactIcons() {
   const phoneNumber = '+359893976715'; // Номер администратора
-  const message = encodeURIComponent('Здравейте, искам да се възползвам от безплатна консултация.');
+  const message = encodeURIComponent('Здравейте! Изпращам снимки за оценка на PDR.');
   const phoneForWhatsApp = phoneNumber.replace('+', ''); // для wa.me
   
   return (
@@ -24,7 +24,7 @@ export default function ContactIcons() {
       
       {/* Telegram */}
       <a
-        href="https://t.me/ManDiversity"  // Замените на свой Telegram username
+        href="https://t.me/ManDiversity"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-500 hover:text-blue-700"
@@ -44,7 +44,7 @@ export default function ContactIcons() {
       
       {/* Instagram */}
       <a
-        href="https://instagram.com/sva_cardetailing"  // Замените на свой Instagram username
+        href="https://instagram.com/sva_cardetailing"
         target="_blank"
         rel="noopener noreferrer"
         className="text-pink-500 hover:text-pink-700"
